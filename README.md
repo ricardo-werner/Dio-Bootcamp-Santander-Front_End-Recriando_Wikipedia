@@ -11,12 +11,15 @@ Este projeto foi desenvolvido como parte do **Bootcamp Santander Front-End - DIO
 ### 📜 Sobre o Projeto
 O desafio consiste em criar uma página web simples, aplicando tags HTML abordadas em aula, além de explorar novas tags com pesquisa e uso consciente.
 
-#### 🧩 Tags exigidas:
+#### 🧩 Mapa da Estrutura do DOM do HTML:
 
-- **Tags ensinadas em aula**:  
-  `h1` a `h6`, `p`, `mark`, `small`, `i`, `u`, `strong`, `ol`, `ul`, `li`, `a`, `hr`, `sub`, `sup`, `blockquote`
-- **Tags pesquisadas**:  
-  `font`, `del`, `abbr`
+## 🧠 Mapa da Estrutura do DOM
+
+Abaixo está o fluxograma representando a estrutura do DOM utilizada neste projeto. Ele reflete a organização semântica do HTML, separando áreas como navegação, conteúdo principal, seções laterais e elementos visuais.
+
+![Fluxograma representando a árvore DOM do projeto Speed Racer. Mostra a hierarquia de elementos HTML começando pelo elemento raiz `<html>`, seguido por `<head>` e `<body>`. Dentro de `<body>`, há divisões principais como `<nav>`, `<div class="container">` que contém `<aside>` laterais, `<main>` com seções como `<section id="sobre">`, `<section id="personagens">`, `<section id="carros">` e seus respectivos subtítulos e conteúdos, incluindo `<figure>`, `<img>`, `<p>`, `<ul>`, `<li>`. Estrutura enfatiza a organização semântica e modular do HTML.](./src/assets/to_readme/estrutura-dom.png)
+
+> 🧩 A imagem acima mostra a estrutura hierárquica do DOM com base no HTML semântico utilizado no projeto Speed Racer, destacando o uso de `section`, `article`, `figure` e `aside` para melhor organização e acessibilidade.
 
 ---
 
@@ -117,8 +120,8 @@ git clone
 ________________________________________
 
 💡 Reflexões
-Desenvolver este projeto reforçou a importância de entender os fundamentos do HTML e CSS.
-Também serviu como ponto de partida para estruturar um portfólio mais completo, com acessibilidade e boas práticas de SEO.
+Desenvolver este projeto reforçou meu conhecimento na importância de compreender os fundamentos do HTML e CSS.
+Também serviu como um novo modo para estruturar um portfólio mais completo, com acessibilidade e boas práticas de SEO.
 
 ________________________________________
 
