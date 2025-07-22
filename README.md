@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte do **Bootcamp Santander Front-End - DIO
 ### 🔗 Deploy
 
 🔗 Acesse a página publicada aqui:  
-👉 
+👉 https://ricardo-werner.github.io/Dio-Bootcamp-Santander-Front_End-Recriando_Wikipedia/
 
 ---
 
