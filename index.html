@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Racer Wiki - Mini SPA</title>
+    <!--
+  Metadados:
+  - name="description": Descrição da página para mecanismos de busca (SEO).
+  - property="og:title": Título exibido ao compartilhar o site em redes sociais.
+  - property="og:description": Descrição resumida para compartilhamento social.
+  - property="og:image": Imagem de destaque nas prévias de compartilhamento.
+  - property="og:type": Tipo de conteúdo, aqui definido como "website".
+-->
+    <meta
+      name="description"
+      content="Mini‑Wiki dedicada a Speed Racer (Mach GoGoGo): história, personagens, carros e curiosidades."
+    />
+    <meta property="og:title" content="Speed Racer Wiki" />
+    <meta
+      property="og:description"
+      content="Explore a história, personagens e carros de Speed Racer (Mach GoGoGo)."
+    />
+    <meta property="og:image" content="link_para_uma_imagem.jpg" />
+    <meta property="og:type" content="website" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="./src/assets/images/speedRacerCartoon.jpg"
+          alt="Logo Speed Racer"
+        />
+      </div>
+
+      <header class="header-main">
+        <h1>Speed Racer Wiki</h1>
+        <p>
+          Mini‑Wiki dedicada a Speed Racer (Mach GoGoGo): história, personagens, carros e curiosidades.
+        </p>
+      </header>
+    </nav>
+
+    <div class="container">
+      <aside class="sidebar-left">
+        <nav aria-label="Navegação lateral">
+          <h2>Conteúdo</h2>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#carros">Carros</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#cronologia">Cronologia</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <section id="sobre">
+          <h2>Sobre Speed Racer</h2>
+          <p>
+            <strong>Speed Racer</strong>, originalmente
+            <em>Mach GoGoGo</em> (マッハGoGoGo), é uma série de mangá e anime
+            criada por Tatsuo Yoshida nos anos 60. A adaptação americana segue
+            Speed, um jovem piloto de 18 anos, dirigindo o Mach 5, carro
+            projetado por seu pai (Pops Racer), vivendo aventuras dentro e fora
+            das pistas.
+          </p>
+        </section>
+
+        <section id="personagens">
+          <h2>Personagens Principais</h2>
+          <article>
+            <h3>Speed Racer (Gō Mifune)</h3>
+            <p>
+              Tem 18 anos e é o piloto do incrível Mach 5, um carro de corrida capaz de livrá-lo de muitas armadilhas. Jovem e destemido protagonista da série.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/speedRacer.jpg"
+                alt="Speed Racer sorrindo com capacete branco"
+              />
+              <figcaption>Speed Racer, o herói das pistas.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Rex Racer/ Corredor X (Kenichi Mifune/ Fukumen Racer)</h3>
+            <p>
+              Seu verdadeiro nome é Rex. Ele é irmão de Speed. Fugiu de casa quando sofreu um acidente em uma corrida e seu pai não queria mais vê-lo nas pistas. Mesmo sem se identificar, o Corredor X está sempre por perto para livrar Speed dos perigos nas corridas. É agente da Interpol. Seu carro se chama Shooting Star (Estrle Cadente).
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/racerX.jpg"
+                alt="Racer X com traje branco e máscara preta com X branco"
+              />
+              <figcaption>Racer X, o corredor mascarado misterioso.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Mamãe (Aya Mifune)</h3>
+            <p>
+              A mãe de Speed nem teve nome no ocidente. Era chamada apenas de "mamãe" e seu papel raramente ia além de cozinhar, torcer pelo filho e se preocupar com as encrencas em que sua família se metia.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/maeSR.jpg"
+                alt="Mãe Racer colocando gorducho e zequinha para fora da sala"
+              />
+              <figcaption>Mãe Racer colocando gorducho e zequinha para sofa da sala.
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Pops Racer (Daisuke Mifune)</h3>
+            <p>
+              Pai de Speed, Rex, Sparky e Gorducho, trabalhava em uma equipe de corrida, foi demitido e decidiu montar seu próprio time. Idealizou e montou o Mach 5. É o cérebro da equipe por trás de muitos engenheiros.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/pops-racer.jpg"
+                alt="Pops Racer atualizando as plantas do Mach 5."
+              />
+              <figcaption>Pops Racer atualizando as plantas do Mach 5.
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Sparky (Sabu)</h3>
+            <p>
+              Irmão de Speed e assistente de Pops Racer. Mecânico de muitas habilidades, responsável pela manutenção do Mach 5, ele herdou o estilo e o talento paterno.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/sparky.jpg"
+                alt="Sparky com macacão azul e boné, sorrindo"
+              />
+              <figcaption>Sparky na rua falando.</figcaption>
+            </figure>
+          </article>
+            <h3>Gorducho (Kurio Mifune) e Zequinha ou Chim Chim (Sanpei)
+            </h3>
+            <p>
+              Irmão de Speed e Rex, tem 7 anos e está sempre por perto do irmão, já que seu esconderijo preferido é o porta-mala da Mach 5. Acaba se metendo em muitas confusões ao lado de seu macaco de estimação Zequinha.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/gorducho_zequinha.jpg"
+                alt="Gorducho e Zequinha, sorrindo"
+              />
+              <figcaption>Gorducho e Zequinha sorrindo.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Trixie (Michi Shimura)</h3>
+            <p>
+              É namorada de Speed e, assim como ele, tem 18 anos. Pilota helicópteros na equipe do Mach 5 e tambem está sempre  apostos para livrar Speed de encrencas.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/trixie.jpg"
+                alt="Trixie pilotando o helicoptero da equipe"
+              />
+              <figcaption>Trixie em várias cenas e pilotando o helicoptero da equipe.
+              </figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <section id="carros">
+          <h2>Carros Icônicos</h2>
+          <article>
+            <h3>Mach 5</h3>
+            <p>
+              Carro principal de Speed, com motor V12 e gadgets ativados no
+              volante: saltos, esteiras, lâminas, modo submersível, visão
+              noturna, entre outros.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/mach5.jpg"
+                alt="Carro Mach 5 branco com detalhes vermelhos"
+              />
+              <figcaption>Mach 5 — tecnologia, estilo e velocidade.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Volante Mach 5</h3>
+            <p>
+              O Mach 5, carro de corrida de Speed, tinha um arsenal de equipamentos que ajudavam Speed a se safar das enrascadas em cada uma de suas aventuras. Em seu volante existe um painel de controle com 7 botões, cada equipamento especial estava relacionado com a letra de seu respectivo botão:
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/mach5_wepons.png"
+                alt="Carro Mach 5 mostrando o arsenal de equipamentos"
+              />
+              <figcaption>Mach 5 — tecnologia.</figcaption>
+            </figure>
+            <ul>
+              <li><strong>A - Macacos Hidráulicos (Autojack):</strong> Macacos automáticos que catapultam o carro para saltar obstáculos ou facilitar pit stops.</li>
+              <li><strong>B - Pneus Aderentes (Controle de Tração):</strong> Cintas sobre os pneus que permitem maior tração em terrenos irregulares.</li>
+              <li><strong>C - Serras Elétricas (Cutter):</strong> Duas serras frontais que cortam obstáculos.</li>
+              <li><strong>D - Escotilha / Defesa à prova de balas (Defenser):</strong> Para-brisa blindado em forma de cápsula.</li>
+              <li><strong>E - Faróis Dianteiros (Evening Eye):</strong> Faróis super brilhantes para visão noturna.</li>
+              <li><strong>F - Periscópio (Frogger):</strong> Permite condução subaquática com carga de oxigênio e periscópio.</li>
+              <li><strong>G - Gizmo Robot:</strong> Robô mensageiro em forma de pombo com localização e gravador de voz.</li>
+              <li><strong>H - Controle do Gizmo:</strong> Localizado entre os assentos, controla os movimentos do robô Gizmo.</li>
+            </ul>
+            <figure>
+              <img
+                src="./src/assets/images/Wheel_Mach_Five.svg.png"
+                alt="Carro Mach 5 - controles dos botões do arsenal de equipamentos extras do carro."
+              />
+              <figcaption>Mach 5 — tecnologia e equipamentos especiais.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Shooting Star</h3>
+            <p>Carro amarelo de Racer X, rápido e equipado para espionagem.</p>
+            <figure>
+              <img
+                src="./src/assets/images/racerXcar.jpg"
+                alt="Carro Shooting Star amarelo do Racer X"
+              />
+              <figcaption>Shooting Star, veloz e silencioso.</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Carro Mamute</h3>
+            <p>
+              Um gigantesco monstro blindado com 30.000 HP, construído inteiramente com barras de ouro no valor de U$50.000.000,00. Criado para esmagar adversários nas pistas com força bruta e invulnerabilidade, tornou-se símbolo da ganância extrema. Seu fim foi tão dramático quanto sua existência: colidiu com uma refinaria de petróleo e derreteu entre as chamas, selando seu destino de forma trágica e cinematográfica.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/mamuteCar.jpg"
+                alt="Carro Mamute, grande e robusto"
+              />
+              <figcaption>Carro Mamute, grande, robusto e perigoso </figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>O Malange e o X3</h3>
+            <p>
+              O Malange era um carro de corrida número "3", pilotado por Flash Marker, nomeado em homenagem ao cavalo de Napoleão. Com pintura em dois tons de roxo e motor exposto, disputou a corrida no perigoso Danger Pass. Após a morte de seu pai, Flash Marker Jr. criou o X3, uma versão modificada e controlada remotamente do Malange, usada como arma de vingança contra o Clube das Três Rosas. Inspirado no Jaguar XJ13, o X3 foi responsável pela eliminação de membros como Sr. Green e Sr. Black.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/x3Car.jpg"
+                alt="Carro Malange e X3 guiado por controle remoto"
+              />
+              <figcaption>Carro Malange e X3 guiado por controle remoto usado para vingaça do pai
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <h3>Motor GRX (o carro dourado)</h3>
+            <p>
+              O GRX era um motor ultra veloz, perigoso a ponto de causar a morte de seus condutores, inclusive seu criador. Instalado em um elegante carro dourado, só podia ser pilotado com o uso do V-gás, uma substância que alterava os reflexos e a sanidade. O carro foi destruído após os efeitos colaterais fatais atingirem Curly, filho do inventor.
+            </p>
+            <figure>
+              <img
+                src="./src/assets/images/GRX_1967.jpg"
+                alt="Carro Dourado na corrida"
+              />
+              <img
+                src="./src/assets/images/grxengine.jpg"
+                alt="motor GRX que equipa o carro dourado"
+              />
+              <figcaption>Carro dourado na corrida e o motor GRX que equipa o carro.
+              </figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <section id="curiosidades">
+          <h2>Curiosidades & Cultura</h2>
+          <ul>
+            <li>Foi um dos primeiros animes a fazer sucesso fora do Japão.</li>
+            <li>Inspirado em James Bond e carros de espionagem.</li>
+            <li>Teve um remake em 1997 e um filme live-action em 2008.</li>
+          </ul>
+        </section>
+
+        <section id="cronologia">
+          <h2>Sinopse Épica & Versões</h2>
+          <p>Speed enfrenta adversários implacáveis como a Equipe Acrobática, enfrenta sabotagens e traições, mas sempre com coragem, justiça e seu fiel Mach 5. Ao lado de Trixie, Sparky e Racer X, desafia limites com ética e emoção.</p>
+          <p>O anime original estreou em 1967 com 52 episódios. Em 1997, a série foi reimaginada como <em>Speed Racer X</em>. Em 2008, ganhou um longa-metragem live-action dirigido pelas irmãs Wachowski, mantendo o espírito ousado da franquia.</p>
+
+          <h3>Spin-offs</h3>
+          <h4>Séries animadas</h4>
+          <p>Em 1993, foi lançada <strong>The New Adventures of Speed Racer</strong>, com 13 episódios produzidos pelo estúdio Murakami-Wolf-Swenson, continuando os eventos do anime original. Em 1997, surgiu <strong>Speed Racer X</strong>, reboot comemorativo de 30 anos, onde o sobrenome de Speed é "Hibiki". A série <strong>Speed Racer Lives</strong> foi lançada em 2006 como websérie. Em 2008, vieram <strong>Mach Girl</strong> e <strong>Speed Racer: The Next Generation</strong>, esta última estrelada pelos filhos de Speed. Em 2013, foi lançado o filme <em>Speed Racer: Race to the Future</em> e, em 2015, a Tatsunoko anunciou um novo anime em produção.</p>
+
+          <h4>Histórias em quadrinhos</h4>
+          <p>Nos anos 1970, a Editorial Abril lançou <em>Las aventuras de Meteoro</em>, com histórias argentinas que também chegaram ao Brasil. Em 1987, a Now Comics lançou 38 edições de <em>Speed Racer</em>, com spin-offs como <em>Racer X</em> e crossovers. Entre 1999 e 2000, a Wildstorm publicou minisséries criadas por Tommy Yune, incluindo <em>Born to Race</em>. Em 2002, a Conrad lançou um encadernado com histórias originais, e a NewPOP publicou o mangá completo em 2009. Em 2007, a Seven Seas lançou uma graphic novel e, em 2008, a IDW publicou <em>Chronicles of the Racer</em>.</p>
+
+          <h4>Vídeo games</h4>
+          <p>Speed Racer também chegou aos games: em 1992 com <em>The Challenge of Racer X</em> para DOS, seguido por <em>My Most Dangerous Adventures</em> para SNES. Em 1995, a Namco lançou o arcade <em>Speed Racer</em>, e em 1996 saiu para PlayStation 1. Em 2006, foi lançado o game online <em>Speed Racer — The Great Plan</em> e, em 2008, uma versão baseada no filme para Nintendo DS, PS2 e Wii.</p>
+        </section>
+      </main>
+
+      <aside class="sidebar-right">
+        <div class="infobox">
+          <h2>Speed Racer</h2>
+          <p><strong>Título original:</strong> Mach GoGoGo ~ マッハ GoGoGo</p>
+          <p><strong>Estreia no Japão:</strong> 02/04/1967 (TV Fuji)</p>
+          <p><strong>Número de episódios:</strong> 52</p>
+          <p><strong>Emissoras no Brasil:</strong> TV Globo, TV Tupi, TV Record, MTV, Cartoon Network, Boomerang, Rede Brasil, ISTV.</p>
+
+
+          <h3>EQUIPE DE PRODUÇÃO</h3>
+
+          <h4>Criação: Tatsuo Yoshida</h4>
+
+          <p><strong>Planejamento:</strong> Jinzo Toriumi</p>
+          <p><strong>Roteiro:</strong> Jinzou Toriumi (principal), Tadashi Hirose, Minoru Kume, Takehito Tsukui, Kapei No e Takashi Kusakawa</p>
+
+          <h4>Direção de arte: Koki Nakamura</h4>
+
+          <p><strong>Trilha sonora:</strong> Nobuyoshi Koshibe</p>
+          <p><strong>Direção:</strong> Ippei Kuri, Hiroshi Sasagawa, Hisayuki Toriumi e outros</p>
+
+          <p><strong>Direção geral:</strong> Hiroshi Sasagawa</p>
+
+          <p><strong>Produção:</strong> Tatsuo Yoshida, Tatsunoko Production </p>
+
+
+          <h4>ELENCO (vozes originais)</h4>
+
+          <p><strong>Go Mifune:</strong> Yukiya Tanaka</p>
+
+          <p><strong>Michi Shimura:</strong> Ikuko Sugita (eps. 1 a 9) e Michiko Nomura (ep. 10 a 52)</p>
+
+          <p><strong>Daisuke Mifune:</strong> Teiji Omiya</p>
+
+          <p><strong>Aya Mifune:</strong> Ryoko Kinomiya</p>
+
+          <p><strong>Kurio Mifune:</strong> Ayako Hori</p>
+
+          <p><strong>Sanpei:</strong> Hiroshi Otake</p>
+
+          <p><strong>Sabu:</strong> Takashi Toyama</p>
+
+          <p><strong>Inspetor Rokugo:</strong> Kenji Utsumi</p>
+
+          <p><strong>Corredor Mascarado:</strong> Kinya Aikawa</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer-main">
+      <p class="copyright" id="footer-content">
+        &copy; Copyright&nbsp;&nbsp;Ricardo Werner - Dev. em
+        Desenvolvimento&nbsp;&nbsp;
+      </p>
+      <script>
+        const date = new Date();
+        document.getElementById("footer-content").innerHTML +=
+          date.getFullYear();
+      </script>
+
+      <p class="redes">Rede para contatos</p>
+
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/ricardo-werner"
+          target="_blank"
+          class="linkedin"
+        >
+          <img src="./src/assets/icon/linkedin.png" alt="Linkedin" />
+        </a>
+
+        <a
+          href="https://www.github.com/ricardo-werner"
+          target="_blank"
+          class="github"
+        >
+          <img src="./src/assets/icon/github.png" alt="Github" />
+        </a>
+
+        <a
+          href="https://wa.me/5548992102106?text=Olá,%20vamos%20conversar!!"
+          target="_blank"
+          class="whatsapp"
+        >
+          <img src="./src/assets/icon/whatsapp.png" alt="Whatsapp" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
