@@ -1,10 +1,10 @@
-# Dio-Bootcamp-Santander-Front_End-LP_Tags_Website
-Este projeto foi desenvolvido como parte do **Bootcamp Santander Front-End - DIO**. O objetivo é aplicar os conhecimentos de HTML e CSS por meio da construção de uma **landing page estática**, utilizando as principais **tags semânticas e de formatação**.
+# Dio-Bootcamp-Santander-Front_End-Recriando_Wikipidia
+Este projeto foi desenvolvido como parte do **Bootcamp Santander Front-End - DIO**. O objetivo é aplicar os conhecimentos de HTML e CSS por meio da construção de uma **landing page estática** recriando um wikipidia, utilizando as principais **tags semânticas e de formatação**.
 ---
 ### 🔗 Deploy
 
 🔗 Acesse a página publicada aqui:  
-👉 https://ricardo-werner.github.io/Dio-Bootcamp-Santander-Front_End-LP_Tags_Website/
+👉 
 
 ---
 
@@ -83,7 +83,6 @@ O desafio consiste em criar uma página web simples, aplicando tags HTML abordad
 | Tags semânticas HTML       | ✅       |
 | CSS externo com variáveis  | ✅       |
 | Layout responsivo          | ✅       |
-| Overlay de imagem de fundo | ✅       |
 | Acessibilidade básica      | ✅       |
 | Preparação para SEO        | ✅       |
 
@@ -94,7 +93,7 @@ O desafio consiste em criar uma página web simples, aplicando tags HTML abordad
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/ricardo-werner/Dio-Bootcamp-Santander-Front_End-LP_Tags_Website.git
+git clone 
 ```
 
 2.	Abra o projeto no VS Code
